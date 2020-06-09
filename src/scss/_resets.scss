@@ -1,0 +1,51 @@
+/* Box sizing reset */
+html {
+  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  margin: 0 auto;
+  //background-color: #0e0e0e;
+}
+/* Image resets */
+img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Body Reset */
+body {
+  margin: 0;
+  padding: 0;
+  //background-color: #0e0e0e;
+}
+
+h1, h2, h3, a, .dark-colour {
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p, .welcome {
+  font-family: 'Cardo' ,'Sawarabi Mincho', sans-serif;
+}
+
+h2 {
+  margin: 0;
+  padding: 15px;
+}
+
+header h1 {
+  margin: 0;
+}

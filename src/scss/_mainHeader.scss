@@ -1,0 +1,44 @@
+.main-header {
+    position: fixed;
+    z-index: 999;
+
+    .main-header-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+    width: 100%;
+    }
+
+    .coa {
+        max-width: 10vh;
+    }
+
+    nav button {
+        padding: 0px;
+        margin: 15px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    a {
+        font-display: none;
+        color: white;
+        padding: 20px;
+    }
+
+    a:hover {
+        color: $main-colour;
+        transition: .9s;
+    }
+
+}

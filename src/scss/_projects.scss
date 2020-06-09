@@ -1,0 +1,61 @@
+.projects {
+    margin-bottom: 20%;
+
+    .projects-partial {
+        margin: 50px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .project-box {
+        text-align: center;
+        margin-bottom: 50px;
+
+        .content-container {
+            padding-bottom: 50px;
+
+            p {
+                margin: 4%;
+            }
+
+            @media (min-width:930px) {
+                padding-bottom: 0px;
+            }
+        }
+
+        @media (min-width: 930px) {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                margin-bottom: 0px;
+                grid-template-areas: 
+                "desc-1 img-1"
+                "img-2 desc-2"
+                "desc-3 img-3"
+                ;
+
+                .react-cont {
+                    grid-area: desc-1;
+                }
+
+                .react-img {
+                    grid-area: img-1;
+                }
+
+                .cap-cont {
+                    grid-area: desc-2;
+                }
+
+                .cap-img {
+                    grid-area: img-2;
+                }
+
+                .port-cont {
+                    grid-area: desc-3;
+                }
+
+                .port-img {
+                    grid-area: img-3;
+                }
+        }
+    }
+}

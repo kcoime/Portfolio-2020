@@ -11,15 +11,15 @@ const Footer = () => {
     return(
         <footer>
             <div className="icon-nav">
-                <Link to={"#projects"}><img className="icons" src={WhiteSword} alt="Sword"/></Link>
-                <Link to={"#about"}><img className="icons" src={WhiteRose} alt="Rose"/></Link>
-                <Link to={"#contact"}><img className="icons" src={WhiteTower} alt="Tower"/></Link>
+                <Link to={"#projects"}><span className='svg-holder'><img className="icons" src={WhiteSword} alt="Sword"/></span></Link>
+                <Link to={"#about"}><span className='svg-holder'><img className="icons" src={WhiteRose} alt="Rose"/></span></Link>
+                <Link to={"#contact"}><span className='svg-holder'><img className="icons" src={WhiteTower} alt="Tower"/></span></Link>
             </div>
             <p>"Through Many Frustrations"<br/> - KVC</p>
             <div className="social">
-                <a href="https://twitter.com/illus_c/"><img className="icons" src={WhiteTwitter} alt="Twitter"/></a>
-                <a href="https://github.com/kcoime/"><img className="icons" src={WhiteGithub} alt="Github"/></a>
-                <a href="https://www.linkedin.com/in/keyfie-coime-0458001aa/"><img className="icons" src={WhiteLinkedin} alt="LinkedIn"/></a>
+                <a href="https://twitter.com/illus_c/"><span className='svg-holder'><img className="icons" src={WhiteTwitter} alt="Twitter"/></span></a>
+                <a href="https://github.com/kcoime/"><span className='svg-holder'><img className="icons" src={WhiteGithub} alt="Github"/></span></a>
+                <a href="https://www.linkedin.com/in/keyfie-coime-0458001aa/"><span className='svg-holder'><img className="icons" src={WhiteLinkedin} alt="LinkedIn"/></span></a>
             </div>
         </footer>
     );

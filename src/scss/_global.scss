@@ -1,0 +1,21 @@
+button {
+    color: white;
+    background-color: $main-colour;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0;
+
+    a {
+        color: white;
+    }
+}
+
+a, p {
+    line-height: 150%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}

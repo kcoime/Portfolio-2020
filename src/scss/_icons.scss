@@ -1,3 +1,29 @@
 .icons {
-    max-width: 45px;
+    max-width: 30px;
+}
+
+.icon-holder {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.social-icons {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.navigation, .navbar-toggler {
+    background-color: transparent;
+    // This is temp remove dark once header is fixed
+    border: 1px solid $dark;
+}
+
+.partial-title {
+    display: flex;
+
+    .icons {
+        padding-right: 10px;
+    }
 }
