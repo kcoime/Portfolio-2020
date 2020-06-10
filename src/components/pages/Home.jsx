@@ -16,7 +16,7 @@ const Home = () => {
                     <div className="contact-content-wrapper">
                         <div className="partial-title"><img className='icons' src={Tower} alt="tower"/><h2>Contact</h2></div>
                         <p>Feel free to contact me for anything! Be it small projects (brochure sites, advertisment sites), or large complexed sites with teams, I'm always up for a challange.</p>
-                        <button>Let's do this together!</button>
+                        <button><a href="mailto:bbuyer02@gmail.com" >Let's do this together!</a></button>
                     </div>
                     <svg className="contact-coa" width="186" height="186" viewBox="0 0 186 186" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M22.0338 8.37V107.308C22.0338 146.439 53.5108 177.916 92.6423 177.916C131.774 177.916 163.251 146.439 163.251 107.308V8.37H22.0338Z" stroke="#4F4F4F" strokeMiterlimit="10"/>
