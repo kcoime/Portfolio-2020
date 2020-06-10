@@ -1,0 +1,22 @@
+.colour-swatches {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.colour {
+    padding: 45px;
+}
+
+.white {
+    padding: 43px;
+    background-color: #fff;
+    border: 2px solid $gray;
+}
+
+.dark {
+    background-color: $dark;
+}
+
+.red {
+    background-color: $main-colour;
+}

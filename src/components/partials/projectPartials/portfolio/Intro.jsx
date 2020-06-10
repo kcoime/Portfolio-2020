@@ -2,7 +2,7 @@ import React from 'react';
 
 const IntroPort = () => {
     return (
-        <article className="page-welcome">
+        <article className="welcome-content">
         <div className="header-wrapper">
             <h1>Portfolio</h1>
         </div>

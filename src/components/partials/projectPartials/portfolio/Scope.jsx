@@ -3,7 +3,7 @@ import React from 'react';
 const ScopePort = () => {
     return (
         <sections>
-            <div className="content">
+            <div className="scope-content">
                 <div className="objectives">
                     <h3>Objective:</h3>
                     <p>Although we had only touched on a small portion of the potential of the library durring the "Javascript Frameworks" module, it was React's versatility which hooked my interest from the beginning. Unlike Wordpress, React is used to create Web Applications allowing it to be rendered as an app. You can see it work it's magic on apps such as Discord, Slack, and Netflix to name a few which all can be accessed via Web Browser or an individual Application.</p>

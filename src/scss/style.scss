@@ -1,8 +1,15 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Cardo&family=Montserrat&family=Sawarabi+Mincho&display=swap');
 
+/*
+* General Resets
+*/
+
 // Resets
 @import 'resets';
+
+// Fonts and Text
+@import 'fonts&text';
 
 //Colours
 @import 'colours';
@@ -10,23 +17,21 @@
 // Global
 @import 'global';
 
+// Icon sizes
+@import 'icons';
+
+/*
+* Body Styles
+*/
+
 // Header
 @import 'mainHeader';
 
-// Welcome
-@import 'welcome';
+// Homepage Styles
+@import 'home-page-master';
 
-// Projects
-@import 'projects';
-
-// About
-@import 'about';
-
-// Contact
-@import 'contact';
-
-// Icon sizes
-@import 'icons';
+// Individual Projects
+@import 'project-page-master';
 
 // Footer
 @import 'footer';
