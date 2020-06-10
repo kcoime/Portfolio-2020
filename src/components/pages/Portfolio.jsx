@@ -1,20 +1,23 @@
 import React from 'react';
+import IntroPort from '../partials/projectPartials/portfolio/Intro';
+import ScopePort from '../partials/projectPartials/portfolio/Scope';
+import DesignPort from '../partials/projectPartials/portfolio/design/Design';
 
 const Portfolio = () => {
     return(
         <div className="wrapper">
             <main>
-                <article className="page-welcome">
-                    <div className="header-wrapper">
-                        <h1>Portfolio</h1>
-                    </div>
-                    <div className="button-wrapper">
-                        <button>View Live</button>
-                        <button>View on Github</button>
-                    </div>
-                    <div className="made-with-wrapper">
-
-                    </div>
+                <IntroPort />
+                <article className="seperator" id="scope">
+                    <h2>The Project Scope</h2>
+                    <ScopePort />
+                </article>
+                <article className="seperator" id="process">
+                    <h2>Process / Challanges</h2>
+                    <DesignPort />
+                </article>
+                <article className="seperator" id="reflection">
+                    <h2>Reflections / Improvements</h2>
                 </article>
             </main>
         </div>
