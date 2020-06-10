@@ -11,7 +11,7 @@ const About = () => {
             <section className="col-desc">
                 <header className="partial-title">
                     <img className='icons' src={Rose} alt="Rose"/>
-                    <h1>About me</h1>
+                    <h2>About me</h2>
                     <img className='social-icons' src={Github} alt=""/>
                     <img className='social-icons' src={LinkedIn} alt=""/>
                 </header>    

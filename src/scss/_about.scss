@@ -1,8 +1,13 @@
 .about {
     max-width: 1700px;
     margin: 0 auto;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media (min-width:500px) {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 
     h1 {
         font-size: 1.5em;

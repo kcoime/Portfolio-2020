@@ -11,10 +11,10 @@ import Placeholder from '../images/coming-soon.png';
 const Projects = () => {
     return  (
     <article className="projects" id="projects">
-        <header className="partial-title projects-partial"><img className='icons' src={Sword} alt="Sword"/><h1>Projects and Work</h1></header>
+        <header className="partial-title projects-partial"><img className='icons' src={Sword} alt="Sword"/><h2>Projects and Work</h2></header>
         <section className='project-box react'>
             <div className="content-container react-cont">
-                <h2>CineWatch</h2>
+                <h3>CineWatch</h3>
                 <div className="icon-holder">
                     <img className='icons' src={ReactLogo} alt=""/>
                     <img className='icons' src={Postman} alt=""/>
@@ -26,7 +26,7 @@ const Projects = () => {
         </section>
         <section className='project-box capstone'>
             <div className="content-container cap-cont">
-                <h2>Bellezza Hair Studio</h2>
+                <h3>Bellezza Hair Studio</h3>
                 <div className="icon-holder">
                     <img className='icons' src={Wordpress} alt=""/>
                     <img className='icons' src={Figma} alt=""/>
@@ -38,7 +38,7 @@ const Projects = () => {
         </section>
         <section className='project-box profolio'>
             <div className="content-container port-cont">
-                <h2>Portfolio</h2>
+                <h3>Portfolio</h3>
                 <div className="icon-holder">
                     <img className='icons' src={ReactLogo} alt=""/>
                     <img className='icons' src={Figma} alt=""/>

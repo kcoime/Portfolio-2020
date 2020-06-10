@@ -14,7 +14,7 @@ const Home = () => {
                 <About />
                 <article className="contact">
                     <div className="contact-content-wrapper">
-                        <div className="partial-title"><img className='icons' src={Tower} alt="tower"/><h1>Contact</h1></div>
+                        <div className="partial-title"><img className='icons' src={Tower} alt="tower"/><h2>Contact</h2></div>
                         <p>Feel free to contact me for anything! Be it small projects (brochure sites, advertisment sites), or large complexed sites with teams, I'm always up for a challange.</p>
                         <button>Let's do this together!</button>
                     </div>
