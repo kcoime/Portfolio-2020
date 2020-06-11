@@ -20,7 +20,7 @@ const Projects = () => {
                     <img className='icons' src={Postman} alt=""/>
                 </div>
                 <p>Cinewatch is a web application created with Reactjs. It aims to create a movie information website using the Movie Database API. Dynamically taking information from the database and displaying them in a custom, handmade website.</p>
-                <button><Link to={'react'}>View Project</Link></button>
+                <Link to={'react'} className='button-link'>View Project</Link>
             </div>
             <img className='react-img' src={Placeholder} alt="place holder"/>
         </section>
@@ -32,7 +32,7 @@ const Projects = () => {
                     <img className='icons' src={Figma} alt=""/>
                 </div>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum quam asperiores officia neque? Voluptas laudantium ex cumque dicta autem quae nostrum officia ipsa officiis dignissimos.</p>
-                <button><Link to={'capstone'}>View Project</Link></button>
+                <Link to={'capstone'} className='button-link'>View Project</Link>
             </div>
             <img className='cap-img' src={Placeholder} alt="place holder"/>
         </section>
@@ -45,7 +45,7 @@ const Projects = () => {
                     <img className='icons' src={Illustrate} alt=""/>
                 </div>
                 <p>The site that you are currently viewing right now. Keep in mind that this site was made purely to practice my skills and understanding of React. This is NOT the proper way React is to be used. It is merely an exercise to get me familiar with this extremely powerful framework.</p>
-                <button><Link to={'portfolio'}>View Project</Link></button>
+                <Link to={'portfolio'} className='button-link'>View Project</Link>
             </div>
             <img className='port-img' src={Placeholder} alt="place holder"/>
         </section>
