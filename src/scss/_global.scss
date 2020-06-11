@@ -4,16 +4,19 @@ html {
 
 button {
     color: white;
-    background-color: $main-colour;
-    border: none;
+}
+
+a {
+    color: white;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 0;
+}
 
-    a {
-        color: white;
-    }
+.button-link {
+    color: white;
+    font-size: 13px;
+    background-color: $main-colour;
 }
 
 a, p {
@@ -33,7 +36,7 @@ h3 {
 }
 
 h4, h5 {
-    font-size: 1.5em;
+    font-size: 1.17em;
     font-weight: bold;
 }
 
