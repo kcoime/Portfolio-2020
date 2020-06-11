@@ -4,6 +4,7 @@ import ScopePort from '../partials/projectPartials/portfolio/Scope';
 import DesignPort from '../partials/projectPartials/portfolio/design/Design';
 import FirstChallange from '../partials/projectPartials/portfolio/development/FirstChallange';
 import SecondChallange from '../partials/projectPartials/portfolio/development/SecondChallange';
+import PortfoConclu from '../partials/projectPartials/portfolio/Conclusion';
 
 const Portfolio = () => {
     return(
@@ -22,10 +23,11 @@ const Portfolio = () => {
                 </article>
                 <article className="seperator" id="reflection">
                     <h2>Reflections / Improvements</h2>
+                    <PortfoConclu />
                 </article>
             </main>
         </div>
     )
 };
 
-export default Portfolio; 
+export default Portfolio;
