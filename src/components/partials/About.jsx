@@ -5,7 +5,7 @@ import LinkedIn from '../images/linkedin.svg';
 import Break from '../images/fancy-break.svg';
 const About = () => {
     return (
-    <article className="about">
+    <article className="about" id="about">
         <img src={Break} alt=""/>
         <div className="about-wrapper">
             <section className="col-desc">

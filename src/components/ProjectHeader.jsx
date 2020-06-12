@@ -82,13 +82,13 @@ const Header = () => {
                     <Collapse isOpen={!isOpen} navbar>
                         <Nav navbar>
                             <NavItem>
-                                <NavLink to={'#projects'}>Work</NavLink>    
+                                <NavLink to={'#scope'}>Scope</NavLink>    
                             </NavItem>
                             <NavItem>
-                                <NavLink to={'#about'}>About</NavLink>
+                                <NavLink to={'#process'}>Process</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to={'#contact'}>Contact</NavLink>
+                                <NavLink to={'#reflection'}>Reflection</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>

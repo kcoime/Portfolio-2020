@@ -18,23 +18,24 @@
 
     nav button {
         padding: 0px;
-        margin: 15px;
+        margin: 20px;
     }
 
     ul {
         list-style: none;
         padding: 0;
+        padding-right: 20px;
     }
 
     li {
         margin-top: 20px;
-        text-align: center;
+        text-align: right;
     }
 
     a {
         font-display: none;
         color: white;
-        padding: 20px;
+        padding: 0px;
     }
 
     a:hover {
@@ -42,4 +43,12 @@
         transition: .9s;
     }
 
+}
+
+.collapse {
+    display: none;
+}
+
+.show {
+    display: block;
 }
