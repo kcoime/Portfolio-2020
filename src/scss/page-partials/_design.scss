@@ -1,16 +1,106 @@
+// Scope Styles
+.scope {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .scope-img {
+        margin: 0 auto;
+    }
+
+    @media (min-width: 1000px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "desc image"
+        ;
+
+        .scope-content {
+            grid-area: desc;
+        }
+
+        .scope-img {
+            grid-area: image;
+        }
+    }
+}
+
+// Design Styles
+
+.themes {
+
+    .process-img {
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    @media (min-width: 380px) {
+        .float {
+            max-width: 50%;
+            position: absolute;
+            right: 1%;
+            top: 50%;
+        }
+    }
+
+    @media (min-width: 1000px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "images desc"
+        ;
+        
+        .themes-desc {
+            padding-left: 15px;
+        }
+    
+        .process-img {
+            padding-right: 15px;
+            grid-area: images;
+
+            .image-subtext {
+                padding-top: 100px;
+
+                @media (min-width:1100px) {
+                    padding-top: 65px;
+                }
+            }
+    
+            .float {
+                position: absolute;
+                left: 50%;
+                bottom: 2%;
+            }
+        }
+    
+        .themes-desc {
+            grid-area: desc;
+        }
+    }
+}
+
 .colour-swatches {
+    padding-top: 25px;
+    padding-bottom: 25px;
     display: flex;
     justify-content: space-evenly;
 }
 
 .colour {
     padding: 45px;
+
+    @media (min-width: 500px) {
+        padding: 75px;
+    }
 }
 
 .white {
     padding: 43px;
     background-color: #fff;
     border: 2px solid $gray;
+
+    @media (min-width: 500px) {
+        padding: 73px;
+    }
 }
 
 .dark {

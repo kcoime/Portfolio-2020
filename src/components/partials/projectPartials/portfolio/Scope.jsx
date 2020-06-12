@@ -1,8 +1,9 @@
 import React from 'react';
+import MockupImg from '../../../images/project-images/portfo-mockup.PNG';
 
 const ScopePort = () => {
     return (
-        <section>
+        <section className='scope'>
             <div className="scope-content">
                 <div className="objectives">
                     <h3>Objective:</h3>
@@ -16,8 +17,8 @@ const ScopePort = () => {
                     </ul>
                 </div>
             </div>
-            <div className="image-group">
-                <img src="" alt=""/>
+            <div className="scope-img">
+                <img src={ MockupImg } alt=""/>
                 <p className="image-subtext">High Fidelity Mockup of the "Kcoime" app</p>
             </div>
         </section>
