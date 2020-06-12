@@ -37,22 +37,24 @@ const DesignPort = () => {
                 </div>
             </div>
             <div className="steps">
-                <h4>Step by Step</h4>
-                <div className="content-map">
-                    <h5>Content Map</h5>
-                    <p>Creating a plan for the site was probably one of the more time consuming part of the project. Having to figure out which projects I wanted to display and which ones to leave out. As for the ones I decided to share with you another problem was presented: How much should I share without getting people bored? The image of my content map shows which topics I thought would make for interesting, worth while content.</p>
+                <h4 className="step-title">Step by Step</h4>
+                <div className="grid-wrapper">
+                    <div className="content-map">
+                        <h5>Content Map</h5>
+                        <p>Creating a plan for the site was probably one of the more time consuming part of the project. Having to figure out which projects I wanted to display and which ones to leave out. As for the ones I decided to share with you another problem was presented: How much should I share without getting people bored? The image of my content map shows which topics I thought would make for interesting, worth while content.</p>
+                    </div>
+                    <img className="content-img" src={ ContentPlan } alt="Content Map Image"/>
+                    <div className="info-arc">
+                        <h5>Information Architecture</h5>
+                        <p>Information Architecture is simply the layout of the site, how each page is linked together and where each page takes you. This site is an extreamly simple site. Everything links back to the homepage one way or another, with the only exception being the external link to Github.</p>
+                    </div>
+                    <img className="info-img" src={ InfoArchitecure } alt="Information Architecture Image"/>
+                    <div className="wireframe">
+                        <h5>Wireframe / Design Mockup</h5>
+                        <p>Probably the most time I spent durring the design process. Using figma I wanted to try my hand at making High Fidelity Wireframes (if you haven't used Figma yet, I highly recommend it). Wireframes are important as they allow for clients and developers to change anything they want on the site before it goes into development. That is extreamly important for avoding scope creep and allows for the client to have an expectation of what the site will look like when presented with the final product.</p>
+                    </div>
+                    <img className="wireframe-img" src={ Wireframe } alt="Wireframe / Mockup"/>
                 </div>
-                <img src={ ContentPlan } alt="Content Map Image"/>
-                <div className="info-arc">
-                    <h5>Information Architecture</h5>
-                    <p>Information Architecture is simply the layout of the site, how each page is linked together and where each page takes you. This site is an extreamly simple site. Everything links back to the homepage one way or another, with the only exception being the external link to Github.</p>
-                </div>
-                <img src={ InfoArchitecure } alt="Information Architecture Image"/>
-                <div className="wireframe">
-                    <h5>Wireframe / Design Mockup</h5>
-                    <p>Probably the most time I spent durring the design process. Using figma I wanted to try my hand at making High Fidelity Wireframes (if you haven't used Figma yet, I highly recommend it). Wireframes are important as they allow for clients and developers to change anything they want on the site before it goes into development. That is extreamly important for avoding scope creep and allows for the client to have an expectation of what the site will look like when presented with the final product.</p>
-                </div>
-                <img src={ Wireframe } alt="Wireframe / Mockup"/>
             </div>
         </section>
     );

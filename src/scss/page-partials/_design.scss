@@ -3,6 +3,9 @@
     padding-top: 50px;
     padding-bottom: 50px;
     .scope-img {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
         margin: 0 auto;
     }
 
@@ -50,7 +53,7 @@
         ;
         
         .themes-desc {
-            padding-left: 15px;
+            padding-left: 50px;
         }
     
         .process-img {
@@ -109,4 +112,67 @@
 
 .red {
     background-color: $main-colour;
+}
+
+// Steps Styles
+.steps {
+
+    .step-title {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        font-size: 1.5em;
+    }
+
+    .grid-wrapper {
+        margin: 0 auto;
+    
+        img {
+            margin: 0 auto;
+            text-align: left;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border: 1px solid $dark;
+    
+            @media (min-width: 1140px) {
+                max-width: 500px;
+            }
+        }
+    
+        @media(min-width: 1140px){
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas:
+            "content-desc content-img"
+            "info-desc info-img"
+            "wireframe wireframe-img"
+            ;
+    
+            .content-map {
+                padding-right: 50px;
+                grid-area: content-desc;
+            }
+    
+            .content-img {
+                grid-area: content-img;
+            }
+    
+            .info-arc {
+                padding-right: 50px;
+                grid-area: info-desc;
+            }
+    
+            .info-img {
+                grid-area: info-img;
+            }
+    
+            .wireframe {
+                padding-right: 50px;
+                grid-area: wireframe;
+            }
+    
+            .wireframe-img {
+                grid-area: wireframe-img;
+            }
+        }
+    }    
 }
