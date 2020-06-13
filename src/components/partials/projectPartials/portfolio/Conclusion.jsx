@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import GIF from '../../../images/gifs/portfolio.gif';
 
 const PortfoConclu = () => {
     return (
@@ -17,9 +18,9 @@ const PortfoConclu = () => {
                     </ul>
                 </div>
                 <div className="image-wrapper">
-                    <img src="" alt="gif of site"/>
+                    <img src={ GIF } alt="gif of site"/>
                     <div className="button-wrapper">
-                        <Link to={'/'} className="button-link">View Live</Link>
+                        <Link to={'/'} className="button-link live">View Live</Link>
                         <a className="button-link">View on Github</a>
                     </div>
                 </div>

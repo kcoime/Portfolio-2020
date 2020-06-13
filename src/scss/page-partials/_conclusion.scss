@@ -1,0 +1,36 @@
+.conclusion {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .conclusion-wrapper {
+    
+        .image-wrapper {
+
+            .button-wrapper {
+                padding-top: 10px;
+                display: flex;
+            }
+
+            @media (min-width: 1000px){
+                padding-left: 50px;
+            }
+        }
+    
+        @media(min-width: 1000px) {
+            display: flex;
+
+            .desc {
+                padding-right: 50px;
+
+                p {
+                    padding-right: 20em;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 1000px) {
+        padding-top: 5em;
+        padding-bottom: 20em;
+    }
+}

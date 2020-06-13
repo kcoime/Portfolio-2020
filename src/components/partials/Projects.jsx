@@ -7,6 +7,7 @@ import Wordpress from '../images/wordpress.svg';
 import Figma from '../images/figma.svg';
 import Illustrate from '../images/illustrate.svg';
 import Placeholder from '../images/coming-soon.png';
+import Portfolio from '../images/thumb-port.png';
 
 const Projects = () => {
     return  (
@@ -47,7 +48,7 @@ const Projects = () => {
                 <p>The site that you are currently viewing right now. Keep in mind that this site was made purely to practice my skills and understanding of React. This is NOT the proper way React is to be used. It is merely an exercise to get me familiar with this extremely powerful framework.</p>
                 <Link to={'portfolio'} className='button-link'>View Project</Link>
             </div>
-            <img className='port-img' src={Placeholder} alt="place holder"/>
+            <img className='port-img' src={Portfolio} alt="place holder"/>
         </section>
 
     </article>

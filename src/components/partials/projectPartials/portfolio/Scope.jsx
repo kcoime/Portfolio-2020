@@ -1,5 +1,5 @@
 import React from 'react';
-import MockupImg from '../../../images/project-images/portfo-mockup.PNG';
+import MockupImg from '../../../images/project-images/showcase-portfo.png';
 
 const ScopePort = () => {
     return (

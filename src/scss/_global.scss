@@ -43,3 +43,16 @@ h4, h5 {
 main {
     background-color: #fff;
 }
+
+// Individual page globals
+
+.button-wrapper {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.live {
+    padding-left: 40px;
+    padding-right: 40px;
+}

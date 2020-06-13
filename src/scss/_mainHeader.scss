@@ -38,6 +38,11 @@
         padding: 0px;
     }
 
+    .active {
+        padding: 15px;
+        padding-right: 0px;
+    }
+
     a:hover {
         color: $main-colour;
         transition: .9s;
