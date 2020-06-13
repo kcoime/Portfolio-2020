@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import GIF from '../../../images/gifs/portfolio.gif';
+import GIF from '../../../images/gifs/react.gif';
 
 const ConcluRea = () => {
     return (
