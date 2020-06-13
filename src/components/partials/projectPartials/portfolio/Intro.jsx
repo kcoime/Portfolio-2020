@@ -14,7 +14,7 @@ const IntroPort = () => {
             </div>
             <div className="button-wrapper">
                 <Link to={'/'} className="button-link live">View Live</Link>
-                <a className="button-link">View on Github</a>
+                <a href="https://github.com/kcoime/Portfolio-2020" className="button-link">View on Github</a>
             </div>
             <div className="made-with-wrapper">
                 <h4>Made With</h4>
