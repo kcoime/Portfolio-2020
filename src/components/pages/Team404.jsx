@@ -10,7 +10,7 @@ const Team404 = () => {
             <div className="wrapper">
                 <div className="article" className="page404">
                     <h1 className="fourofour"><Link to={'/'} className="return">404</Link></h1>
-                    <p className="error-text">Unfortunalty the page you where looking for does not exist (yet).</p>
+                    <p className="error-text">Unfortunately the page you where looking for does not exist (yet).</p>
                 </div>
             </div>
             <Footer />
