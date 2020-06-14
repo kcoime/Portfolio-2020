@@ -2,13 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ReactImg from '../../../images/react.svg';
 import Postman from '../../../images/postman.svg';
-import KCoime from '../../../images/project-images/port-banner.png';
+import CineWatch from '../../../images/project-images/rea-banner.png';
 
 const IntroRea = () => {
     return (
         <article className="welcome-content">
             <div className="header-wrapper">
-                <img className="header-img" src={ KCoime } alt=""/>
+                <img className="header-img" src={ CineWatch } alt=""/>
                 <h1>CineWatch</h1>
             </div>
             <div className="button-wrapper">

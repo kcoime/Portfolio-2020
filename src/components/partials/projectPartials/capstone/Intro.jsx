@@ -1,13 +1,13 @@
 import React from 'react';
 import Wordpress from '../../../images/wordpress.svg';
 import Figma from '../../../images/figma.svg';
-import KCoime from '../../../images/project-images/port-banner.png';
+import Bellezza from '../../../images/project-images/cap-banner.png';
 
 const IntroCap = () => {
     return (
         <article className="welcome-content">
             <div className="header-wrapper">
-                <img className="header-img" src={ KCoime } alt=""/>
+                <img className="header-img" src={ Bellezza } alt=""/>
                 <h1>Bellezza</h1>
             </div>
             <div className="button-wrapper">

@@ -7,7 +7,7 @@ const ScopeCap = () => {
             <div className="scope-content">
                 <div className="objectives">
                     <h3>Objective:</h3>
-                    <p>The purpose of this project was to emulate a movie review site with the help of the Movie Database API. It has to be able to sort 20 films from the following catagories: Popular, Top Rated, Now Playing, and Upcoming. This was also our first real project after the one week break from BCIT. React was challanging to learn, but it's potential absolutly limitless (well, not really, but you get the point, tones of functionality!), being able to pull from an online database with an API and allowing said information to be displayed dynamically was nothing short of amazing to me.</p>
+                    <p>To create a fully functional, professional website, with a custom hand-coded custom theme on WordPress. This puts everything we have learned within TWD to the test. Agreeing to a Memo of Understanding, planning the content, creating Wireframes, and eventually coding the site with both the backend of WordPress and PHP to create a website that can suit the client’s needs.</p>
                 </div>
                 <div className="team">
                     <h3>Team Members:</h3>

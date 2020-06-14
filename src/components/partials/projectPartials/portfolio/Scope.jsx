@@ -7,8 +7,9 @@ const ScopePort = () => {
             <div className="scope-content">
                 <div className="objectives">
                     <h3>Objective:</h3>
-                    <p>Although we had only touched on a small portion of the potential of the library during the "JavaScript Frameworks" module, it was Reacts versatility which hooked my interest from the beginning. Unlike WordPress, React is used to create Web Applications allowing it to be rendered as an app. You can see it work it is magic on apps such as Discord, Slack, and Netflix to name a few which all can be accessed via Web Browser or an individual Application.</p>
-                    <p>The objective of the site was to challenge myself and my understanding of the React Framework by creating a site using its base features. As mentioned before this is NOT at all the correct way this framework is to be used, in fact React may be "overkill" if one where to use it this way.</p>
+                    <p>To create our personal website that will act as a place where we can place not only our projects from TWD, but also any future projects down the road. I wanted to focus on the powerful framework of React for this website, due in part to its extreme versatility. As it does not limit itself to a browser but can also be used in as an app (Slack, Netflix, Discord are just a few examples of ‘webapps’ that can be used on a mobile device).</p>
+                    <p>The purpose of this site is to challenge myself and to develop my understanding of this extremely powerful framework. This is NOT how React is supposed to be used at all, in fact I would consider the use of this framework for a static site like this to be “overkill”.</p>
+                    <p>TLDR: React is supposed to be used for “Dynamic” sites, NOT “Static” ones (This site is what one would consider “Static”)</p>
                 </div>
                 <div className="team">
                     <h3>Team Members:</h3>

@@ -2,8 +2,6 @@ import React from 'react';
 import IntroPort from '../partials/projectPartials/portfolio/Intro';
 import ScopePort from '../partials/projectPartials/portfolio/Scope';
 import DesignPort from '../partials/projectPartials/portfolio/design/Design';
-import FirstChallange from '../partials/projectPartials/portfolio/development/FirstChallange';
-import SecondChallange from '../partials/projectPartials/portfolio/development/SecondChallange';
 import PortfoConclu from '../partials/projectPartials/portfolio/Conclusion';
 
 const Portfolio = () => {
@@ -18,8 +16,7 @@ const Portfolio = () => {
                 <article className="seperator" id="process">
                     <h2>Process / Challanges</h2>
                     <DesignPort />
-                    <FirstChallange />
-                    <SecondChallange />
+                    <h1 className="case-study">Development Case Study coming soon...</h1>
                 </article>
                 <article className="seperator" id="reflection">
                     <h2>Reflections / Improvements</h2>

@@ -7,6 +7,7 @@ import Wordpress from '../images/wordpress.svg';
 import Figma from '../images/figma.svg';
 import Illustrate from '../images/illustrate.svg';
 import Placeholder from '../images/coming-soon.png';
+import ReactThumb from '../images/thumb-reac.png';
 import Portfolio from '../images/thumb-port.png';
 
 const Projects = () => {
@@ -23,7 +24,7 @@ const Projects = () => {
                 <p>Cinewatch is a web application created with Reactjs. It aims to create a movie information website using the Movie Database API. Dynamically taking information from the database and displaying them in a custom, handmade website.</p>
                 <Link to={'react'} className='button-link'>View Project</Link>
             </div>
-            <img className='react-img' src={Placeholder} alt="place holder"/>
+            <img className='react-img' src={ReactThumb} alt="place holder"/>
         </section>
         <section className='project-box capstone'>
             <div className="content-container cap-cont">
@@ -32,7 +33,7 @@ const Projects = () => {
                     <img className='icons' src={Wordpress} alt=""/>
                     <img className='icons' src={Figma} alt=""/>
                 </div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum quam asperiores officia neque? Voluptas laudantium ex cumque dicta autem quae nostrum officia ipsa officiis dignissimos.</p>
+                <p>Bellezza is a hair salon website developed in WordPress. The aim is to create a website using a handmade custom theme, emulating what it is like to develop a site on WordPress for a client.</p>
                 <Link to={'capstone'} className='button-link'>View Project</Link>
             </div>
             <img className='cap-img' src={Placeholder} alt="place holder"/>
