@@ -14,7 +14,7 @@ const ReactProj = () => {
                 </article>
                 <article className="seperator" id="process">
                     <h2>Process / Challanges</h2>
-                    <h1>Case Study coming soon...</h1>
+                    <h1>Development Case Study coming soon...</h1>
                 </article>
                 <article className="seperator" id="reflection">
                     <h2>Reflections / Improvements</h2>
