@@ -1,0 +1,56 @@
+.page404 {
+    background-color: #fff;
+    padding-top: 70%;
+    padding-bottom: 65%;
+
+    p {
+        margin: 0;
+    }
+
+    .return {
+        color: black;
+    }
+
+    .return:hover {
+        color: $main-colour;
+        transition: 2s;
+    }
+
+    .fourofour {
+        font-size: 5em;
+        margin: 0;
+
+        a {
+            padding: 0;
+        }
+        
+        @media(min-width: 700px) {
+            font-size: 7em;
+        }
+
+        @media(min-width: 1000px) {
+            font-size: 10em;
+        }
+    }
+
+    .error-text {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    @media(min-width: 425px) {
+        padding-top: 50%;
+        padding-bottom: 50%;
+    }
+
+    @media(min-width: 500px) {
+        padding-top: 40%;
+        padding-bottom: 40%;
+    }
+
+    @media(min-width: 1000px) {
+        padding-top: 10%;
+        padding-bottom: 11%;
+    }
+}

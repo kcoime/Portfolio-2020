@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import Header from '../Header';
 import Footer from '../Footer';
 
@@ -7,7 +8,10 @@ const Team404 = () => {
         <div className="outer-header">
             <Header />
             <div className="wrapper">
-                <h1><span>{'<'}</span>404 Not Found<span>{'/>'}</span></h1>
+                <div className="article" className="page404">
+                    <h1 className="fourofour"><Link to={'/'} className="return">404</Link></h1>
+                    <p className="error-text">Unfortunalty the page you where looking for does not exist (yet).</p>
+                </div>
             </div>
             <Footer />
         </div>

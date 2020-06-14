@@ -18,7 +18,7 @@ const ConcluRea = () => {
                 <div className="image-wrapper">
                     <img src={ GIF } alt="gif of site"/>
                     <div className="button-wrapper">
-                        <Link to={'/'} className="button-link live">View Live</Link>
+                        <a href="/cinewatch/" className="button-link live">View Live</a>
                         <a href="https://github.com/kcoime/cinewatch" className="button-link">View on Github</a>
                     </div>
                 </div>
