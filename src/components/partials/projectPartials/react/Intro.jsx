@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import ReactImg from '../../../images/react.svg';
 import Postman from '../../../images/postman.svg';
 import CineWatch from '../../../images/project-images/rea-banner.png';
@@ -12,7 +11,7 @@ const IntroRea = () => {
                 <h1>CineWatch</h1>
             </div>
             <div className="button-wrapper">
-                <Link to={'/'} className="button-link live">View Live</Link>
+                <a href="/cinewatch/" className="button-link live">View Live</a>
                 <a href="https://github.com/kcoime/cinewatch" className="button-link">View on Github</a>
             </div>
             <div className="made-with-wrapper">
