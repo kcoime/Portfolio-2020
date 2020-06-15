@@ -16,8 +16,7 @@
 
 .navigation, .navbar-toggler {
     background-color: transparent;
-    // This is temp remove dark once header is fixed
-    border: 1px solid $dark;
+    border: transparent;
 }
 
 .partial-title {
