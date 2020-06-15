@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cinewatch/static/css/main.2b30ddf8.chunk.css",
+    "main.css": "/cinewatch/static/css/main.522bad6e.chunk.css",
     "main.js": "/cinewatch/static/js/main.16b1379d.chunk.js",
     "main.js.map": "/cinewatch/static/js/main.16b1379d.chunk.js.map",
     "runtime-main.js": "/cinewatch/static/js/runtime-main.18eaf204.js",
@@ -8,15 +8,15 @@
     "static/js/2.0de668ac.chunk.js": "/cinewatch/static/js/2.0de668ac.chunk.js",
     "static/js/2.0de668ac.chunk.js.map": "/cinewatch/static/js/2.0de668ac.chunk.js.map",
     "index.html": "/cinewatch/index.html",
-    "precache-manifest.4a793c914e43872013b655a2722f809c.js": "/cinewatch/precache-manifest.4a793c914e43872013b655a2722f809c.js",
+    "precache-manifest.e5c210b2da6f7d29c2ca5865ba1a49e0.js": "/cinewatch/precache-manifest.e5c210b2da6f7d29c2ca5865ba1a49e0.js",
     "service-worker.js": "/cinewatch/service-worker.js",
-    "static/css/main.2b30ddf8.chunk.css.map": "/cinewatch/static/css/main.2b30ddf8.chunk.css.map",
+    "static/css/main.522bad6e.chunk.css.map": "/cinewatch/static/css/main.522bad6e.chunk.css.map",
     "static/js/2.0de668ac.chunk.js.LICENSE.txt": "/cinewatch/static/js/2.0de668ac.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.18eaf204.js",
     "static/js/2.0de668ac.chunk.js",
-    "static/css/main.2b30ddf8.chunk.css",
+    "static/css/main.522bad6e.chunk.css",
     "static/js/main.16b1379d.chunk.js"
   ]
 }

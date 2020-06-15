@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1d0c97847c967b84c84602cc8bc7b70e",
+    "revision": "d4a2d4903602d34ba123a797f43e1870",
     "url": "/cinewatch/index.html"
   },
   {
-    "revision": "cc86ccd358585c73d688",
-    "url": "/cinewatch/static/css/main.2b30ddf8.chunk.css"
+    "revision": "850a1e828989aad2ae2a",
+    "url": "/cinewatch/static/css/main.522bad6e.chunk.css"
   },
   {
     "revision": "16bc9cfb378ab4ebd565",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cinewatch/static/js/2.0de668ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc86ccd358585c73d688",
+    "revision": "850a1e828989aad2ae2a",
     "url": "/cinewatch/static/js/main.16b1379d.chunk.js"
   },
   {
