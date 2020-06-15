@@ -56,3 +56,12 @@ main {
     padding-left: 40px;
     padding-right: 40px;
 }
+
+// Partial Header
+.partial-header {
+    max-height: 70px;
+
+    a {
+        height: 20%;
+    }
+}
