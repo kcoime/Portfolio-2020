@@ -1,0 +1,36 @@
+.skew {
+    height: 120px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    @media (min-width:1030px) {
+        height: 250px;
+    }
+    
+}
+
+.skew::before {
+transform: skewY(-10deg);
+transform-origin: left bottom;
+}
+
+.skew::after {
+transform: skewY(10deg);
+transform-origin: right bottom;
+}
+
+.skew::before, .skew::after {
+    background: linear-gradient(90deg, #575757, rgb(58, 58, 58), rgb(83, 83, 83));
+    box-shadow: 0px 3px 4px 0 rgba(0,0,0,0.2);
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 180%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}

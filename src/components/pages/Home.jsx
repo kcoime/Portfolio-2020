@@ -10,6 +10,7 @@ const Home = () => {
     return (
         <div className="outer-wrapper">
             <Header />
+            <div className="skew"></div>
             <div className="wrapper" id="page-wrap">
                 <Welcome />
                 <main>
