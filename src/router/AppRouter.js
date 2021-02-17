@@ -12,6 +12,8 @@ const AppRouter = () => (
         <ScrollToTop>
             <Switch>
                 <Route path="/" exact><Home/></Route>
+                <Route path="/about"></Route>
+                <Route path="/projects"></Route>
                 <Route path="/react"><ReactProj/></Route>
                 <Route path="/capstone"><Capstone/></Route>
                 <Route path="/portfolio"><Portfolio/></Route>
