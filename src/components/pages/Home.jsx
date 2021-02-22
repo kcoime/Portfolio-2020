@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import Header from '../Header';
 import Footer from '../Footer';
 import Welcome from '../partials/Welcome';
@@ -13,9 +14,8 @@ const Home = () => {
             <div className="wrapper" id="page-wrap">
                 <main className="main-home">
                     <div className="screen-wrapper">
-                        <div className="screen about-screen"></div>
-                        <div className="screen-prise"></div>
-                        <div className="screen project-screen"></div>
+                        <Link to={"/about"}><div className="screen about-screen"></div></Link>
+                        <Link to={"#projects"}><div className="screen project-screen"></div></Link>
                         <h1 className="title">Keyfie Coime</h1>
                     </div>
                 </main>

@@ -1,108 +1,13 @@
-// .welcome-partial {
-//     position: relative;
-//     background-color: $dark;
-//     color: white;
-//     padding-top: 500px;
-//     padding-bottom: 500px;
-
-//     .welcome {
-//         width:100%;
-//         position:relative;
-//         display: flex;
-//     }
-
-//     .welcome-title {
-//         position: absolute;
-//         margin: 65px;
-//         top: 25%;
-//         z-index: 1;
-//     }
-
-//     .message {
-//         display: flex;
-//         position: absolute;
-//         bottom: 50%;
-//         left: 20%;
-
-//         @media (min-width: 500px) {
-//             left: 10%;
-//         }
-//     }
-
-//     h1 {
-//         margin: 0;
-
-//         @media (min-width: 500px) {
-//             font-size: 3.8em;
-//         }
-
-//         @media (min-width: 610px) {
-//             font-size: 5em;
-//         }
-//     }
-
-//     svg {
-//         position: absolute;
-//         max-width: 150px;
-//         top: 50%;
-//         left: 25%;
-//     }
-
-//     .line {
-//         background-color: #fff;
-//     }
-
-//     .dark-colour {
-//         color: #151313;
-//     }
-
-//     .hight-light {
-//         color: $main-colour;
-//     }
-// }
-
-// .main-home {
-//     display: flex;
-//     flex-direction: row;
-//     position: relative;
-
-//     .about-screen {
-//         max-height: 100%;
-//         max-width: 50%;
-//         padding: 25%;
-//         padding-top: 240%;
-//         background-color: $dark;
-//         position: absolute;
-//     }
-
-//     .project-screen {
-//         max-height: 100%;
-//         max-width: 50%;
-//         padding: 25%;
-//         padding-top: 240%;
-//         left: 50%;
-//         background-color: rgb(255, 255, 255);
-//         position: absolute;
-//     }
-
-//     h1 {
-//         bottom: 100%;
-//         position: absolute;
-//         top: 50%;
-//         left: 50%;
-//         transform: translate(-50%, -50%);
-//     }
-// }
-
 .main-home {
     width: 100%;
     height: 100vh;
     overflow: hidden;
     
-    h1 {
+    .title {
         z-index: 999;
         position: absolute;
         font-size: 5vh;
+        //@include setBG($text-colour);
         
         top: 35%;
         margin-left: auto;
@@ -111,6 +16,39 @@
         right: 0;
         text-align: center;
 
+        
+
+        // Animations
+        animation: fadeIn ease 10s;
+        -webkit-animation: fadeIn ease 2.5s;
+
+        // Animation Keyframes
+        @keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+            }
+            
+            @-moz-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+            }
+            
+            @-webkit-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+            }
+            
+            @-o-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+            }
+            
+            @-ms-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+
+        // Media Queries
         @media(min-width: 420px) {
             font-size: 7vh;
         }
@@ -144,5 +82,12 @@
 
 .about-screen {
     background-color: $dark;
+    right: 0;
+    transition: right ease 0.5s;
+    position: relative;
+
+    &#hover {
+        right: 10px;
+    }
 }
 

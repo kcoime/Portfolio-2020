@@ -2,3 +2,21 @@ $dark: #292929;
 $main-colour: #990024;
 $text-colour: #0e0e0e;
 $gray: #4F4F4F;
+$light-grey: #C0C0C0;
+$white: rgb(255, 255, 255);
+
+// Set Colour of text based on BGC
+
+// @function set-text-colour($color) {
+//     @if(lighness($color > 70)) {
+//         @return $text-colour;
+//     } @else {
+//         @return $light-grey;
+//     }
+// }
+
+// // Mixin set BGC and Text Colour
+// @mixin setBG($color) {
+//     background-color: $color;
+//     color: set-text-colour($color);
+// }
