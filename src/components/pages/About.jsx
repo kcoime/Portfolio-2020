@@ -1,19 +1,42 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 
 const About = () => {
 
+    const [myAge, setMyAge] = useState(0);
+
+    // Defins
+    const {
+        age
+    } = myAge
+
+    const calculateAge = () => {
+        const birthDate  = new Date();
+        const difference = Date.now() - birthDate.getTime();
+        const currentAge = new Date(difference);
+
+        return Math.abs(currentAge.getUTCFullYear() - 1970);
+    }
+
+    console.log(calculateAge);
+
     return (
         <>
-        <header className="header-about">
-            <div className="cheat-space"></div>
-            <Link to={'/'}>Return</Link> 
-        </header>
-        <main className="main-about">
-            <div className="title"><h1>About <span className="colour-change">Me</span></h1></div>
-            
-            <p>Hello my name is Keyfie Coime, I am a Web Developer / UX Designer from Vancouver BC (or in otherwords really, REALLY far West). A fan of History (any Byzantine lovers out there?) and Tech, I have always been interested in learning programming, but found the black screen of the terminal / command prompt really of boring. Which brings me to where I am today, a lone Web Developer from the port city of Vancouver in Beautiful British Columbia! If you ever need someone to build a clean, responsive website, or if you just want to talk about some Eastern Roman history (or history in general), I'm more than welcome to lend a helping hand.</p>
-        </main>
+            <header className="header-about">
+                <div className="cheat-space"></div>
+                <Link to={'/'}>Return</Link> 
+            </header>
+            <main className="main-about">
+                <div className="title"><h1 className="page-heading">About <span>Me</span></h1></div>
+
+                <p className="lead">
+                    Hello my name is Keyfie Coime, I am a Web Developer/UX Designer from Vancouver BC. A fan of History and Tech, {age} or something...
+                </p>
+                
+                <p>
+                    I have always been interested in learning programming, but found the black screen of the command prompt really of boring. Which brings me to where I am today, a lone Web Developer from the port city of Vancouver in British Columbia! Feel free to chat if you want someone to build a clean, responsive website, or if you just want to chill, that's cool too...
+                </p>
+            </main>
         </>
     )
 }

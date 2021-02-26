@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <h1>My <span className="colour-change">Work</span></h1>
+        <h1 className="page-heading">My <span>Work</span></h1>
     )
 }
 

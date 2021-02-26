@@ -5,12 +5,53 @@ h1, h2, h3, h4, h5, a, .dark-colour {
   }
   
   html ,p, .welcome {
-    font-family: 'Baskervville' ,'Sawarabi Mincho', sans-serif;
+    font-family: 'Montserrat' ,'Sawarabi Mincho', sans-serif;
   }
 
   .title {
     font-family: 'Baskervville', serif;
     font-weight:normal;
+  }
+
+  .page-heading {
+    font-size: 350%;
+    text-align: center;
+
+    @media (min-width: 650px){
+      text-align: left;
+    }
+
+    span {
+      // Animations
+      animation: ColourChange ease;
+      -webkit-animation: ColourChange ease 2.5s forwards;
+
+      // Animation Keyframes
+      @keyframes ColourChange {
+          0% {}
+          100% {color: #990024;}
+          }
+          
+          @-moz-keyframes ColourChange {
+          0% {}
+          100% {color: #990024;}
+          }
+          
+          @-webkit-keyframes ColourChange {
+          0% {}
+          100% {color: #990024;}
+          }
+          
+          @-o-keyframes ColourChange {
+          0% {}
+          100% {color: #990024;}
+          }
+          
+          @-ms-keyframes ColourChange {
+          0% {}
+          100% {color: #990024;}
+      }
+    }
   }
   
   h2 {
