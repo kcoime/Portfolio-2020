@@ -18,8 +18,8 @@ const AppRouter = () => (
                 {/* Main Page Pages */}
                 
                 <Route path="/" exact><Home/></Route>
-                {/* <Route path="/about"><About /></Route>
-                <Route path="/projects"><Projects /></Route> */}
+                <Route path="/about"><About /></Route>
+                <Route path="/projects"><Projects /></Route>
 
                 {/* Individual Project Pages */}
 

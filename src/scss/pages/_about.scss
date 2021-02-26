@@ -1,0 +1,20 @@
+.header-about {
+    background-color: $dark;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-about {
+    background-color: $dark;
+    color: white;
+
+    h1 {
+        margin: 0;
+    }
+
+    p {
+        line-height: 3;
+    }
+}
