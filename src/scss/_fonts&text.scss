@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, a, .dark-colour {
     span {
       // Animations
       animation: ColourChange ease;
-      -webkit-animation: ColourChange ease 2.5s forwards;
+      -webkit-animation: ColourChange ease 1.5s forwards;
 
       // Animation Keyframes
       @keyframes ColourChange {
@@ -52,6 +52,10 @@ h1, h2, h3, h4, h5, a, .dark-colour {
           100% {color: #990024;}
       }
     }
+  }
+
+  p {
+    margin: 0;
   }
   
   h2 {

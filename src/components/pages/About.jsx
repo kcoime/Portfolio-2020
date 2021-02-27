@@ -3,22 +3,25 @@ import {Link} from 'react-router-dom';
 
 const About = () => {
 
-    const [myAge, setMyAge] = useState(0);
+    //const [myAge, setMyAge] = useState('');
 
-    // Defins
-    const {
-        age
-    } = myAge
+    // const MyAge = () => {
+    //     let currentDay  = new Date().getDate();
+    //     let currentMonth = new Date().getMonth();
+    //     let currentYear  = new Date().getFullYear();
 
-    const calculateAge = () => {
-        const birthDate  = new Date();
-        const difference = Date.now() - birthDate.getTime();
-        const currentAge = new Date(difference);
+    //     console.log(currentDay + ' ' + currentMonth + ' ' + currentYear)
 
-        return Math.abs(currentAge.getUTCFullYear() - 1970);
-    }
+    //     if(currentDay, currentMonth, currentYear){
+    //         currentDay >= 6;
+    //         currentMonth >=3
+    //         return currentYear - 2000;
+    //     }else {
+    //         return currentYear - 1999;
+    //     }
+    // }
 
-    console.log(calculateAge);
+
 
     return (
         <>
@@ -30,7 +33,7 @@ const About = () => {
                 <div className="title"><h1 className="page-heading">About <span>Me</span></h1></div>
 
                 <p className="lead">
-                    Hello my name is Keyfie Coime, I am a Web Developer/UX Designer from Vancouver BC. A fan of History and Tech, {age} or something...
+                    Hello my name is Keyfie Coime, I am a Web Developer/UX Designer from Vancouver BC. A fan of History and Tech, 21 or something...
                 </p>
                 
                 <p>
