@@ -3,37 +3,28 @@ import {Link} from 'react-router-dom';
 
 const About = () => {
 
-    //const [myAge, setMyAge] = useState('');
+    const MyAge = () => {
+        const currentCalendar   = new Date()
+        const currentYear       = currentCalendar.getFullYear();
 
-    // const MyAge = () => {
-    //     let currentDay  = new Date().getDate();
-    //     let currentMonth = new Date().getMonth();
-    //     let currentYear  = new Date().getFullYear();
+        const currentAge = currentYear - 1999        
 
-    //     console.log(currentDay + ' ' + currentMonth + ' ' + currentYear)
-
-    //     if(currentDay, currentMonth, currentYear){
-    //         currentDay >= 6;
-    //         currentMonth >=3
-    //         return currentYear - 2000;
-    //     }else {
-    //         return currentYear - 1999;
-    //     }
-    // }
-
+        return (
+            <span>{currentAge}</span>
+        )
+    }
 
 
     return (
         <>
-            <header className="header-about">
-                <div className="cheat-space"></div>
-                <Link to={'/'}>Return</Link> 
-            </header>
             <main className="main-about">
-                <div className="title"><h1 className="page-heading">About <span>Me</span></h1></div>
+                <div className="title">
+                    <h1 className="page-heading">About <span>Me</span></h1>
+                    <Link to={'/'}>Return</Link>
+                </div>
 
                 <p className="lead">
-                    Hello my name is Keyfie Coime, I am a Web Developer/UX Designer from Vancouver BC. A fan of History and Tech, 21 or something...
+                    Hello my name is Keyfie Coime, I am a Web Developer/UX Designer from Vancouver BC. A fan of History and Tech, {MyAge()} or something...
                 </p>
                 
                 <p>

@@ -1,12 +1,17 @@
-.header-about {
-    background-color: $dark;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-
 .main-about {
+    
+    .title {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        padding-top: 30px;
+        padding-left: 5vh;
+        padding-right: 5vh;
+
+    }
+
     background-color: $dark;
     color: white;
 

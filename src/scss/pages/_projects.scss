@@ -1,61 +1,108 @@
-.projects {
-    margin-bottom: 20%;
+// .projects {
+//     margin-bottom: 20%;
 
-    .projects-partial {
-        padding: 50px;
-        padding-top: 10%;
-        padding-bottom: 10%;
+//     .projects-partial {
+//         padding: 50px;
+//         padding-top: 10%;
+//         padding-bottom: 10%;
+//     }
+
+//     .project-box {
+//         text-align: center;
+//         margin-bottom: 50px;
+
+//         .content-container {
+//             padding-bottom: 50px;
+
+//             p {
+//                 margin: 4%;
+//             }
+
+//             @media (min-width:930px) {
+//                 padding-bottom: 0px;
+//             }
+//         }
+
+//         @media (min-width: 930px) {
+//                 display: grid;
+//                 grid-template-columns: repeat(2, 1fr);
+//                 margin-bottom: 0px;
+//                 grid-template-areas: 
+//                 "desc-1 img-1"
+//                 "img-2 desc-2"
+//                 "desc-3 img-3"
+//                 ;
+
+//                 .react-cont {
+//                     grid-area: desc-1;
+//                 }
+
+//                 .react-img {
+//                     grid-area: img-1;
+//                 }
+
+//                 .cap-cont {
+//                     grid-area: desc-2;
+//                 }
+
+//                 .cap-img {
+//                     grid-area: img-2;
+//                 }
+
+//                 .port-cont {
+//                     grid-area: desc-3;
+//                 }
+
+//                 .port-img {
+//                     grid-area: img-3;
+//                 }
+//         }
+//     }
+// }
+
+// .header-pro {
+//     padding-top: 20px;
+//     padding-bottom: 20px;
+//     display: flex;
+//     justify-content: space-between;
+
+//     a {
+//         color: $text-colour;
+//     }
+// }
+
+.main-pro {
+
+    .title {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        margin-top: 30px;
+        margin-left: 5vh;
+        margin-right: 5vh;
+
+        a {
+            color: $text-colour;
+        }
     }
 
-    .project-box {
-        text-align: center;
-        margin-bottom: 50px;
+    color: $dark;
 
-        .content-container {
-            padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
 
-            p {
-                margin: 4%;
-            }
+    h1 {
+        margin: 0;
+    }
 
-            @media (min-width:930px) {
-                padding-bottom: 0px;
-            }
-        }
+    .lead {
+        font-size: 3vh;
+        line-height: 2;
+    }
 
-        @media (min-width: 930px) {
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                margin-bottom: 0px;
-                grid-template-areas: 
-                "desc-1 img-1"
-                "img-2 desc-2"
-                "desc-3 img-3"
-                ;
-
-                .react-cont {
-                    grid-area: desc-1;
-                }
-
-                .react-img {
-                    grid-area: img-1;
-                }
-
-                .cap-cont {
-                    grid-area: desc-2;
-                }
-
-                .cap-img {
-                    grid-area: img-2;
-                }
-
-                .port-cont {
-                    grid-area: desc-3;
-                }
-
-                .port-img {
-                    grid-area: img-3;
-                }
-        }
+    p {
+        line-height: 3;
     }
 }
