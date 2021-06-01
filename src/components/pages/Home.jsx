@@ -9,7 +9,6 @@ import Tower from '../images/tower.svg';
 const Home = () => {
     return (
         <div className="outer-wrapper">
-            <Header />
             <div className="wrapper" id="page-wrap">
                 <Welcome />
                 <main>

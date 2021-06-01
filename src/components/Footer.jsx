@@ -11,9 +11,9 @@ const Footer = () => {
     return(
         <footer>
             <div className="icon-nav">
-                <Link to={"#projects"}><span className='svg-holder'><img className="icons" src={WhiteSword} alt="Sword"/></span></Link>
-                <Link to={"#about"}><span className='svg-holder'><img className="icons" src={WhiteRose} alt="Rose"/></span></Link>
-                <Link to={"#contact"}><span className='svg-holder'><img className="icons" src={WhiteTower} alt="Tower"/></span></Link>
+                <span className='svg-holder'><img className="icons" src={WhiteSword} alt="Sword"/></span>
+                <span className='svg-holder'><img className="icons" src={WhiteRose} alt="Rose"/></span>
+                <span className='svg-holder'><img className="icons" src={WhiteTower} alt="Tower"/></span>
             </div>
             <p>"Through Many Frustrations"<br/> - KVC</p>
             <div className="social">

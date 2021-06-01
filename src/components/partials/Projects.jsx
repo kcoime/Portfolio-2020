@@ -13,7 +13,7 @@ import Portfolio from '../images/thumb-port.png';
 const Projects = () => {
     return  (
     <article className="projects" id="projects">
-        <header className="partial-title projects-partial"><img className='icons' src={Sword} alt="Sword"/><h2>Projects and Work</h2></header>
+        <header className="partial-title projects-partial"><img className='icons' src={Sword} alt="Sword"/><h2>Projects</h2></header>
         <section className='project-box react'>
             <div className="content-container react-cont">
                 <h3>CineWatch</h3>

@@ -152,10 +152,17 @@
             margin-top: 15px;
             margin-bottom: 15px;
             border: 1px solid $dark;
+
+            // Animations
+            transition: transform .2s;
     
             @media (min-width: 1140px) {
                 max-width: 500px;
             }
+        }
+
+        img:hover {
+            transform: scale(1.5);
         }
     
         @media(min-width: 1140px){
