@@ -1,4 +1,10 @@
 import React from 'react';
+import Gist from 'react-gist';
+
+const gistData = {
+    id: "d40600d2af1a19899927f06d6fdc89e5",
+    file: null
+}
 
 const FirstChallangeCine = () => {
     return (
@@ -15,7 +21,7 @@ const FirstChallangeCine = () => {
             </div>
 
             <div className="code-area">
-                <script src="https://gist.github.com/kcoime/d40600d2af1a19899927f06d6fdc89e5.js"></script>
+                <Gist id={gistData.id} />
             </div>
 
             <p>With the use of both functions, we are able to favourite movies, and add them to our favourites page on the site. A very handy feature.</p>

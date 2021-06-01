@@ -1,0 +1,17 @@
+.development-process-inichall {
+    .img-wrapper {
+
+        img {
+            max-width: 100%;
+
+            @media (min-width: 545px) {
+                max-width: 50%;
+            }
+        }
+
+        @media (min-width: 1050px) {
+           display: flex;
+           justify-content: space-evenly; 
+        }
+    }
+}
