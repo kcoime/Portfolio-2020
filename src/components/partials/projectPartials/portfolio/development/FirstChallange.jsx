@@ -19,12 +19,13 @@ const FirstChallangePort = () => {
             <div className="initial-chal">
                 <div className="desc">
                     <h5>Initial Challange</h5>
-                    <p>The first hurdle I had to overcome when it came to React was to make sure that everything is organised properly. For the sake of my sanity everything that had to do with React partials (found in the partials folder) ended with the React exclusive extension <code>.JSX</code>, whilst everything outside was labled .JS. Both files essentially do the same thing, extension helps me to figure out if I'm working on a Partial or working on something Global.</p>
+                    <p>The first hurdle I had to overcome when it came to React was to make sure that everything is organised properly. For the sake of my sanity everything that had to do with React partials (found in the partials folder) ended with the React exclusive extension <code>.jsx</code>, whilst everything outside was labled <code>.js</code>. Both files essentially do the same thing, extension helps me to figure out if I'm working on a Partial or working on something Global.</p>
                 </div>
                 <div className="img-wrapper">
-                    <img src={PartialsImg} alt=""/>
                     <img src={CursedPartial} alt=""/>
+                    <img src={PartialsImg} alt=""/>
                 </div>
+                <p className="image-subtext"> Before (recreation) vs After, (easier to distinguish) </p>
             </div>
             <div className="first-chal">
                 <div className="first-desc">

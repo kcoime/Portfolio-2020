@@ -15,7 +15,7 @@ const Header = () => {
             <div className="main-header-wrapper">
                 <div className="logo">
                     <NavbarBrand href="/" className="logo-link" >
-                        Retrun
+                        Return
                     </NavbarBrand>
                 </div>
                 <Navbar>
