@@ -3,7 +3,20 @@ import Rose from '../images/Rose.svg';
 import Github from '../images/github.svg';
 import LinkedIn from '../images/linkedin.svg';
 import Break from '../images/fancy-break.svg';
+
 const About = () => {
+
+    const MyAge = () => {
+        const currentCalendar   = new Date()
+        const currentYear       = currentCalendar.getFullYear();
+
+        const currentAge = currentYear - 1999        
+
+        return (
+            <span>{currentAge}</span>
+        )
+    }
+
     return (
     <article className="about" id="about">
         <img src={Break} alt=""/>
@@ -15,9 +28,10 @@ const About = () => {
                     <a href="https://github.com/kcoime/"><img className='social-icons' src={Github} alt=""/></a>
                     <a href="https://www.linkedin.com/feed/"><img className='social-icons' src={LinkedIn} alt=""/></a>
                 </header>    
-                <p>
-                Hello my name is Keyfie Coime, I am a web developer from Vancouver BC (or in otherwords really, REALLY far West). A fan of History (any Byzantine lovers out there?) and Tech, I have always been interested in learning programming, but found the black screen of the terminal / command prompt really of boring. Which brings me to where I am today, a lone Web Developer from the port city of Vancouver in Beautiful British Columbia! If you ever need someone to build a clean, responsive website, or if you just want to talk about some Eastern Roman history (or history in general), I'm more than welcome to lend a helping hand.
+                <p id="subtitle">
+                Hello my name is Keyfie Coime, {MyAge()} or something...
                 </p>        
+                <p>I have always been interested in learning programming, but found the black screen of the command prompt really of boring. Which brings me to where I am today, a lone Web Developer from the port city of Vancouver in British Columbia! Feel free to chat if you want someone to build a clean, responsive website, or if you just want to chill, that's cool too...</p>
             </section>
             <section className="col-stack">
                 <div className="col-title">
